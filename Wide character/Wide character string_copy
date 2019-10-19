@@ -1,0 +1,15 @@
+/*wcscpy() : syntax: wchar_t *wcscpy(wchar_t *strDestination, const wchar_t *strSource);
+wcscpy() stands for Wide-Character String Copy. It copies a wide-character string */
+
+
+#include<iostream>
+using  namespace std;
+int main()
+{
+	wchar_t name[]=L"Hello ";
+	wchar_t sr[10];
+	wcscpy(sr,name);
+	wcout<<L"original: "<<name<<'\n';
+	wcout<<L"copy: "<<sr;
+	
+}
