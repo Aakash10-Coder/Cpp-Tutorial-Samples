@@ -1,0 +1,10 @@
+//basic use of Wide character
+#include<iostream>
+using namespace std;
+int main()
+{
+	wchar_t p = L'a';
+	wcout<<"Wide charcter is="<<p<<endl;
+	cout<<"wide chacter is="<<p;
+	return 0; 
+}
